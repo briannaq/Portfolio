@@ -1,0 +1,31 @@
+@font-face {
+  font-family:Gatwick-Bold;
+  src: url("../fonts/Gatwick-Bold.otf");
+}
+
+@font-face{
+  font-family:Gatwick-Light;
+  src: url("../fonts/Gatwick-Ultralight.otf");
+}
+
+@font-face{
+  font-family:Apercu-Light;
+  src: url("..fonts/{Colophon} Aperçu Light Typeface.otf")
+}
+h1{
+  font-family: Gatwick-Bold;
+  font-size: 5vw;
+}
+
+h2{
+  font-family: Gatwick-Bold;
+  font-size:3vw;
+}
+
+h3{
+  font-family:Gatwick-Light;
+}
+
+p{
+  font-family: Apercu-Light;
+}
