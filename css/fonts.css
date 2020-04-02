@@ -12,8 +12,26 @@
   font-family:Apercu-Light;
   src: url("..fonts/{Colophon} Aperçu Light Typeface.otf")
 }
+
+@font-face{
+  font-family:Apercu-Regular;
+  src: url("..fonts/ApercuPro.ttf")
+}
+
+.nav-links a{
+    font-family:Apercu-Regular;
+  text-decoration: none;
+  line-height: 25px;
+  font-size:13px;
+  letter-spacing: 1px;
+  text-align: right;
+  text-transform: uppercase;
+  color:black;
+}
 a{
+
   text-decoration:none;
+
 }
 h1{
   font-family: Gatwick-Bold;
@@ -30,7 +48,22 @@ h3{
   font-family:Gatwick-Light;
 }
 
+h4{
+  font-family:Apercu-Regular;
+  line-height: 2px;
+  font-size: 12px;
+  font-weight:normal;
+}
+
+h5{
+  font-family: Gatwick-Bold;
+  text-transform:uppercase;
+}
 p{
   font-family: Apercu-Light;
   text-decoration:none;
+}
+
+nav a{
+  line-height: normal;
 }
