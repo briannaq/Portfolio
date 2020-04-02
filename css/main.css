@@ -57,6 +57,7 @@ nav{
     -webkit-text-stroke: 1px black;
     -webkit-text-fill-color: black;
 }
+
 #works{
   height:100vh;
   position:relative;
@@ -100,7 +101,7 @@ nav{
   width: 30%;
   position: absolute;
   z-index: -5;
-  top:55%;
+  top:50%;
   left: 80%;
   transform: translate(-50%, -45%);
   z-index: -100000;
@@ -110,4 +111,18 @@ nav{
   padding-top:10rem;
   margin-left:2.5em;
   margin-right:2.5em;
+}
+.about-page{
+  height:90vh;
+}
+.footer-content{
+  display:flex;
+  justify-content: center;
+
+padding-top:2em;
+  border-top: 0.5px solid black;
+}
+
+.footer-content a{
+  padding-right:2em;
 }
