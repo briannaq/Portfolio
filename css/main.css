@@ -34,7 +34,38 @@ align-self: center;
 
 .nav a{
   display:inline-block;
-  padding-left:2em;
+  padding:0 20px;
+  position: relative;
+}
+.nav a:before, nav a:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #000;
+}
+
+.nav a:before {
+  left: -2.5px;
+}
+.nav a:after {
+  right: 2.5px;
+  background: #000;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.nav a:hover:before {
+  background: #000;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.nav a:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
 }
 
 nav{
