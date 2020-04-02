@@ -64,6 +64,10 @@ p{
   text-decoration:none;
 }
 
-nav a{
-  line-height: normal;
+.bio-intro{
+  font-family: Gatwick-Light;
+}
+
+.bio-body{
+  line-height:22px;
 }
