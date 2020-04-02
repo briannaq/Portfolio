@@ -43,4 +43,44 @@ header{
 
 .works{
   height:100vh;
+  position:relative;
+}
+
+
+.subtext{
+  text-decoration:none;
+}
+
+.typographic-space:hover .image-hover{
+  display:block;
+  /* height: 55%; */
+ z-index: -100000;
+}
+
+.aral-sea:hover .image-hover{
+  display:block;
+   z-index: -100000;
+}
+
+.the-peak:hover .image-hover{
+  display:block;
+   z-index: -100000;
+}
+
+.project-text{
+  width:50%;
+  border-top:1px solid;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+.image-hover {
+  display: none;
+  width: 30%;
+  position: absolute;
+  z-index: -5;
+  top:25%;
+  left: 80%;
+  transform: translate(-50%, -45%);
+  z-index: -100000;
 }

@@ -12,6 +12,9 @@
   font-family:Apercu-Light;
   src: url("..fonts/{Colophon} Aperçu Light Typeface.otf")
 }
+a{
+  text-decoration:none;
+}
 h1{
   font-family: Gatwick-Bold;
   font-size: 5vw;
@@ -19,7 +22,8 @@ h1{
 
 h2{
   font-family: Gatwick-Bold;
-  font-size:3vw;
+  font-size: 2rem;
+  text-decoration:none;
 }
 
 h3{
@@ -28,4 +32,5 @@ h3{
 
 p{
   font-family: Apercu-Light;
+  text-decoration:none;
 }
