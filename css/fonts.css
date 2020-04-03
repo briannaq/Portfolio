@@ -50,6 +50,13 @@ h2 a{
   letter-spacing: 3px;
 }
 
+h2{
+  font-family: Gatwick-Bold;
+  font-size: 2rem;
+  text-decoration:none;
+  letter-spacing: 3px;
+}
+
 h3{
   font-family:Gatwick-Light;
 }
@@ -68,6 +75,8 @@ h5{
 p{
   font-family: Apercu-Light;
   text-decoration:none;
+  font-size:15px;
+  line-height: 22px;
 }
 
 .bio-intro{
