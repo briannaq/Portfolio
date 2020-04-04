@@ -1,12 +1,46 @@
 html{
   scroll-behavior: smooth;
 }
-
-footer{
+.footer-style a{
+  display: flex;
+  justify-content: flex-start;
+}
+.footer-content{
   padding-bottom:0.5em;
 }
+.footer-content a{
+  position:relative;
+}
+.footer-content a:before, nav a:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #000;
+}
 
+.footer-content a:before {
+  left: -2.5px;
+}
+.footer-content a:after {
+  right: 2.5px;
+  background: #000;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
 
+.footer-content a:hover:before {
+  background: #000;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.footer-content a:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
 
 /* .body{
 
@@ -170,14 +204,19 @@ nav{
 }
 .footer-content{
   display:flex;
-  justify-content: center;
+  justify-content:flex-start;
   padding-top:2em;
-  border-top: 0.5px solid black;
+
+}
+
+footer{
+    border-top: 0.5px solid black;
 }
 
 .footer-content a{
-  padding-right:1em;
-  padding-left:1em;
+  margin-left: 1em;
+  margin-right:1em;
+
   font-size:10px;
   text-align:center;
 }
@@ -189,6 +228,7 @@ nav{
   border: 1px solid black;
   margin:1em 1em 1em 1em;
   padding-left: 2em;
+  padding-bottom:2em;
 }
 
 
@@ -300,6 +340,8 @@ width:60%;
      padding-bottom:56.25%;
      position:relative;
      height:0;
+     margin-left:5em;
+     margin-right:5em;
 
 }
 .video iframe {
@@ -310,8 +352,13 @@ width:60%;
   height: 100%;
 }
 
+.citations{
+
+  padding: 1em 2em 10em 2em;
+}
+
 /* MEDIA QUERIES */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .project-intro{
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -345,10 +392,16 @@ width:60%;
     flex-shrink: 2;
   }
 
+
+  .about-page{
+    width:100%;
+    padding-bottom:5em;
+  }
+
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 550px){
   .case-studies{
   padding-top:30%;
   padding-left:1em;
@@ -420,12 +473,18 @@ width:60%;
   margin-left:1em;
   margin-right:1em;
 }
+
+.video{
+  margin-left:1em;
+  margin-right:1em;
 }
 
+}
 
 @media only screen and (max-width: 500px) {
 .about-page{
   width:100%;
+  padding-bottom:5em;
 }
 .about{
   padding-top:10rem;
@@ -436,5 +495,8 @@ width:60%;
 .bio-intro{
   font-size:1.5rem;
 }
-
+.video{
+  margin-left:1em;
+  margin-right:1em;
+}
 }

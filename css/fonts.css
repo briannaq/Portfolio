@@ -32,6 +32,16 @@
   text-transform: uppercase;
   color:black;
 }
+.copyright{
+  font-family: Apercu-Regular;
+  text-decoration:none;
+  color:black;
+  font-size: 10px;
+  letter-spacing:1px;
+  text-transform: uppercase;
+    margin-left: 1em;
+}
+
 a{
   font-family: Apercu-Regular;
   text-decoration:none;
@@ -91,4 +101,18 @@ p{
 
 .bio-body{
   line-height:22px;
+}
+
+.email{
+  text-transform: none;
+}
+
+.email:hover{
+  border-bottom: 1px solid black;
+}
+
+.logo{
+  font-family: Gatwick-Bold;
+  text-transform:uppercase;
+
 }
