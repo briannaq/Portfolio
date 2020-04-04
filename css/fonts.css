@@ -18,6 +18,10 @@
   src: url("..fonts/ApercuPro.ttf")
 }
 
+@font-face{
+  font-family:Apercu-Bold;
+  src: url("..fonts/ApercuPro-Bold.ttf")
+}
 .nav-links a{
     font-family:Apercu-Regular;
   text-decoration: none;
@@ -62,9 +66,11 @@ h3{
 }
 
 h4{
-  font-family:Apercu-Regular;
+  font-family:Apercu-Bold;
   line-height: 2px;
-  font-size: 12px;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  text-transform: uppercase;
   font-weight:normal;
 }
 
