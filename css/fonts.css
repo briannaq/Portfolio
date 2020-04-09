@@ -57,6 +57,19 @@ h1{
 
 }
 
+.banner-font{
+  font-size: 3em;
+  align-content: center;
+  align-items: center;
+
+}
+
+@media only screen and (max-width: 550px){
+.banner-font{
+  font-size:2em;
+}
+}
+
 h2 a{
   font-family: Gatwick-Bold;
   font-size: 2.5rem;
